@@ -28,6 +28,7 @@ class OrdinateurController extends Controller
             'nom' => $request->nom,
             'annee' => $request->annee,
             'sizeScreen' => $request->sizeScreen,
+            'price' => $request->price,
             'category_id' => $request->category_id,
         ]);
 
@@ -47,6 +48,7 @@ class OrdinateurController extends Controller
             'nom' => $request->nom,
             'annee' => $request->annee,
             'sizeScreen' => $request->sizeScreen,
+            'price' => $request->price,
             'category_id' => $request->category_id,
         ]);
 

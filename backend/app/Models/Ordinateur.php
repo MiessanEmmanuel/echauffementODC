@@ -14,6 +14,7 @@ class Ordinateur extends Model
     protected $fillable =[
         'nom',
         'annee',
+        'price',
         'sizeScreen',
         'category_id'
     ];
